@@ -24,16 +24,16 @@ const Header = () => {
           <img src={search_icon} alt="search-icon" />
         </form>
         <div className="user-area d-flex">
-          <div className="upload">
+          <div className="upload user-area-icon">
             <img src={upload_icon} alt="upload-icon" />
           </div>
-          <div className="more">
+          <div className="more user-area-icon">
             <img src={more_icon} alt="" />
           </div>
-          <div className="notification">
+          <div className="notification user-area-icon">
             <img src={notification_icon} alt="notification-icon" />
           </div>
-          <div className="user-profile">
+          <div className="user-profile user-area-icon">
             <img src={jack} alt="user-profile" />
           </div>
         </div>
