@@ -19,8 +19,8 @@ const Header = () => {
             <img src={logo_icon} alt="logo-icon" />
           </Link>
         </div>
-        <form className="search-container">
-          <input type="text" />
+        <form className="search-container d-flex">
+          <input type="text" placeholder="Search" />
           <img src={search_icon} alt="search-icon" />
         </form>
         <div className="user-area d-flex">

@@ -30,6 +30,19 @@
         width: 400px;
         border: 1px solid grey;
         border-radius: 50px;
+        height: 32px;
+        justify-content: space-between;
+        padding: 0 20px;
+        gap: 15px;
+        input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            width: 100%;
+        }
+        img{
+            width: 20px;
+        }
     }
   }
 }
