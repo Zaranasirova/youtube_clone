@@ -1,0 +1,50 @@
+.aside {
+  padding-top: 20px ;
+  margin-bottom: 50px;
+  flex: 1;
+  overflow-y: scroll;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .aside-wrapper{
+    display: flex;
+    flex-direction: column;
+    .categories-list {
+      flex-direction: column;
+      gap: 15px;
+      display: flex;
+      border-bottom: 1px solid grey;
+      padding-bottom: 15px;
+      .categories-list-item {
+        gap: 10px;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .subscribed {
+      padding-top: 15px;
+      .subscribed-list{
+        flex-direction: column;
+        gap: 15px;
+        display: flex;
+        .subscribed-list-item{
+          gap: 15px;
+          div{
+            img{
+              width: 28px;
+              height: 28px;
+              border-radius: 50px;
+            }
+          }
+        }
+      }
+      .subscribed-head-title{
+        padding-bottom: 15px;
+        color: grey;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
