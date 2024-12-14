@@ -19,39 +19,39 @@ const Aside = () => {
       <div className="aside-wrapper container">
       <ul className="categories-list ">
         <li className="categories-list-item d-flex">
-          <img src={home_icon} alt="home-icon" />
+          <div><img src={home_icon} alt="home-icon" /></div>
           <p>Home</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={game_icon} alt="game-icon" />
+          <div><img src={game_icon} alt="game-icon" /></div>
           <p>Gaming</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={automobiles_icon} alt="automobiles-icon" />
+          <div><img src={automobiles_icon} alt="automobiles-icon" /></div>
           <p>Automobiles</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={sports_icon} alt="sports-icon" />
+          <div><img src={sports_icon} alt="sports-icon" /></div>
           <p>Sports</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={entertainment_icon} alt="entertainment-icon" />
+          <div><img src={entertainment_icon} alt="entertainment-icon" /></div>
           <p>Entertainment</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={tech_icon} alt="Technology-icon" />
+          <div><img src={tech_icon} alt="Technology-icon" /></div>
           <p>Technology</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={music_icon} alt="music-icon" />
+          <div><img src={music_icon} alt="music-icon" /></div>
           <p>Music</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={blogs_icon} alt="blogs-icon" />
+          <div><img src={blogs_icon} alt="blogs-icon" /></div>
           <p>Blogs</p>
         </li>
         <li className="categories-list-item d-flex">
-          <img src={news_icon} alt="news-icon" />
+          <div><img src={news_icon} alt="news-icon" /></div>
           <p>News</p>
         </li>
       </ul>
