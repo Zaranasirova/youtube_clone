@@ -1,21 +1,178 @@
-import bmw from "../../assets/image/automobiles.png";
-import cng from "../../assets/image/blogs.png";
-import blog from "../../assets/image/cameron.png";
-import dfr from "../../assets/image/dislike.png";
-import ghhkkj from "../../assets/image/history.png";
-import fte from "../../assets/image/logo.png";
+import thumbnail1 from "../../assets/image/thumbnail1.png";
+import thumbnail2 from "../../assets/image/thumbnail2.png";
+import thumbnail3 from "../../assets/image/thumbnail3.png";
+import thumbnail4 from "../../assets/image/thumbnail4.png";
+import thumbnail5 from "../../assets/image/thumbnail5.png";
+import thumbnail6 from "../../assets/image/thumbnail6.png";
+import thumbnail7 from "../../assets/image/thumbnail7.png";
+import thumbnail8 from "../../assets/image/thumbnail8.png";
 
 const Hero = () => {
   return (
-    <div style={{ flex: "5", overflowY: "scroll", height: "auto" }}>
-      <img src={fte} alt="" />
-      <img src={bmw} alt="" />
-      <img src={cng} alt="" />
-      <img src={blog} alt="" />
-      <img src={dfr} alt="" />
-      <img src={ghhkkj} alt="" />
-      <img src={fte} alt="" />
-    </div>
+    <section className="hero-section">
+      <div className="container box-wrapper">
+        <div className="video-box">
+          <img src={thumbnail1} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail2} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail3} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail4} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail5} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail6} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail7} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail8} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail3} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail4} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail5} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail6} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail7} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span>6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail8} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail3} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail4} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail5} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail6} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail7} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+        <div className="video-box">
+          <img src={thumbnail8} alt="thumbnail-image" />
+          <h3 className="video-title">A Quiet PLace: Day One | Official Trailer (2024 Movie)</h3>
+          <p className="video-text">Paramount Pictures</p>
+          <span className="views">6M Views</span>
+          <span>.</span>
+          <span>17 hours ago</span>
+        </div>
+      </div>
+    </section>
   );
 };
 
